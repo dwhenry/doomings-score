@@ -11,9 +11,12 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2022_12_12_221951) do
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "card_types", force: :cascade do |t|
-    t.integer "card_id"
-    t.integer "type_id"
+    t.bigint "card_id"
+    t.bigint "type_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["card_id"], name: "index_card_types_on_card_id"
@@ -22,11 +25,12 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_12_221951) do
 
   create_table "cards", force: :cascade do |t|
     t.string "name"
-    t.string "description"
+    t.string "favour"
+    t.string "effect"
     t.string "colour"
     t.integer "points"
     t.string "collection"
-    t.json "effect"
+    t.json "effects"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
