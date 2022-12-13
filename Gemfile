@@ -37,3 +37,4 @@ end
 gem 'watir'
 gem 'webdrivers'
 gem 'nokogiri'
+gem 'mini_magick'
