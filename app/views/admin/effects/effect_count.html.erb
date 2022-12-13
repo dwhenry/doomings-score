@@ -1,0 +1,16 @@
+<%= form_with model: card, url: admin_card_path(card), local: true do |f| %>
+  <%= f.fields :effects, model: OpenStruct.new(f.object.effects) do |e| %>
+    <%= turbo_frame_tag "card_effects" do %>
+      <%= render partial: "admin/effects/effects", locals: { card: card, effect: "effect_count", e: e } %>
+
+      <div class="bg-gray-300 p-2 border-b border-gray-700">
+        Points based on the number of cards with effects in your hand
+      </div>
+      <div class="bg-gray-300 p-2 ">
+        <%= e.label :effect_count, "Enter effect count as json hash, for all values great used {value}+" %><br>
+
+        <%= e.text_area :effect_count, class: "w-full h-52" %>
+      </div>
+    <% end %>
+  <% end %>
+<% end %>

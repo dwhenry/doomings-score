@@ -1,0 +1,60 @@
+<%= form_with model: card, url: admin_card_path(card), local: true do |f| %>
+  <div class="grid grid-cols-5">
+    <div class="m-4 p-2 bg-gray-100 row-span-3 rounded-xl flex justify-center">
+      <%= image_tag("cards/#{card.name}", class: "h-64 m-auto") %>
+    </div>
+
+    <div class="m-4 p-2 bg-gray-100 col-span-2 rounded-xl">
+      <%= f.label :name, class: "text-gray-400" %><br>
+      <%= card.name %>
+    </div>
+    <div class="m-4 p-2 bg-gray-100 col-span-2 rounded-xl">
+      <%= f.label :favour, class: "text-gray-400" %><br>
+      <%= card.favour %>
+    </div>
+    <div class="m-4 p-2 bg-gray-100 col-span-2 rounded-xl">
+      <%= f.label :effect, class: "text-gray-400" %><br>
+      <% card.effect.split("\n").each do |effect| %>
+        <%= effect %><br>
+      <% end %>
+    </div>
+    <div class="m-4 p-2 bg-gray-100 col-span-2 rounded-xl">
+      <%= f.label :points, class: "text-gray-400" %><br>
+      <%= card.points || "N/A" %>
+    </div>
+    <div class="m-4 p-2 bg-gray-100 col-span-2 rounded-xl">
+      <%= f.label :colour, class: "text-gray-400" %><br>
+      <%= card.colour %>
+    </div>
+    <div class="m-4 p-2 bg-gray-100 col-span-2 rounded-xl">
+      <%= f.label :collection, class: "text-gray-400" %><br>
+      <%= card.collection %>
+    </div>
+
+    <%= turbo_frame_tag "card_effects", src: admin_card_effect_path(card), class: "col-span-5 m-4 rounded-xl overflow-hidden border border-gray-700" %>
+
+    <div class="m-4 mb-0 col-span-5 flex bg-green-200 border border-gray-700 rounded-t-xl overflow-hidden">
+      <div class="font-bolder py-2 px-5 bg-green-500">
+        Attributes:
+      </div>
+    </div>
+    <div class="m-4 mt-0 col-span-5 grid grid-cols-2 bg-gray-300 border border-t-0 border-gray-700 rounded-b-xl">
+      <%= f.fields :effects, model: OpenStruct.new(f.object.effects) do |e| %>
+        <div class="font-bolder py-2 px-5 border-0 border-gray-700">
+          <%= e.label :has_effect, class: "pr-5" %>
+          <%= e.check_box :has_effect %>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="m-4 bg-gray-200 hover:bg-gray-500 hover:text-white col-span-1 flex justify-center rounded-full border border-gray-700">
+      <%= f.submit :update, class: "m-2 w-full text-center block uppercase" %>
+    </div>
+    <div class="m-4 bg-gray-200 hover:bg-gray-500 hover:text-white col-span-1 flex justify-center rounded-full border border-gray-700">
+      <%= link_to :previous, admin_card_path(card, select: "previous"), class: "m-2 w-full text-center block uppercase" %>
+    </div>
+    <div class="m-4 bg-gray-200 hover:bg-gray-500 hover:text-white col-span-1 flex justify-center rounded-full border border-gray-700">
+      <%= link_to :next, admin_card_path(card, select: "next"), class: "m-2 w-full text-center block uppercase" %>
+    </div>
+  </div>
+<% end %>

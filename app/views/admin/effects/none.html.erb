@@ -1,0 +1,11 @@
+<%= form_with model: card, url: admin_card_path(card), local: true do |f| %>
+  <%= f.fields :effects, model: OpenStruct.new(f.object.effects) do |e| %>
+    <%= turbo_frame_tag "card_effects" do %>
+      <%= render partial: "admin/effects/effects", locals: { card: card, effect: "none", e: e } %>
+
+      <div class="bg-gray-300 p-2">
+        This Card has no effect on the final score outside of it points
+      </div>
+    <% end %>
+  <% end %>
+<% end %>

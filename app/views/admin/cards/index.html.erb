@@ -1,0 +1,53 @@
+<%= form_with model: search, url: admin_cards_path, local: true, method: :get do |f| %>
+  <div class="flex">
+    <div>
+      <%= f.label :colour %>
+      <%= f.select :colour, search.colours, { include_blank: true } %>
+    </div>
+    <div>
+      <%= f.label :collection %>
+      <%= f.select :collection, search.collections, { include_blank: true } %>
+    </div>
+    <div>
+      <%= f.label :state %>
+      <%= f.select :state, search.states %>
+    </div>
+    <div>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+    </div>
+    <div>
+      <%= f.submit :search %>
+    </div>
+  </div>
+<% end %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Points</th>
+    <th>Colour</th>
+    <th>Type(s)</th>
+    <th>Collection</th>
+    <th>Configured</th>
+    <th>Effects</th>
+  </tr>
+  <% cards.each do |card| %>
+    <tr>
+      <td><%= link_to card.name, admin_card_path(card) %></td>
+      <td><%= card.points %></td>
+      <td><%= card.colour %></td>
+      <td><%= card.types.map(&:name).join(", ") %></td>
+      <td><%= card.collection %></td>
+      <td><%= card.effect.blank? || card.effects.present? %></td>
+      <td>
+        <% card.effect.split("\n") do |effect| %>
+          <%= effect %>
+          <br>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<%== pagy_nav(pagy) %>

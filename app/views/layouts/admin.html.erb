@@ -11,9 +11,11 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <main class="container mx-auto mt-28 px-5">
+  <body class="bg-gray-200">
+    <main class="container mx-auto px-5 bg-white">
+      <div class="text-3xl bg-blue-300 border-b-4 border-blue-600 p-5 mb-5 -mx-5">Admin</div>
       <%= yield %>
+
     </main>
   </body>
 </html>

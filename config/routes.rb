@@ -6,6 +6,12 @@ Rails.application.routes.draw do
 
   resources :cards
 
+  namespace :admin do
+    resources :cards do
+      resource :effect, only: :show
+    end
+  end
+
   root "scores#index"
 
 end

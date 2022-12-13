@@ -6,12 +6,14 @@ ruby "3.1.2"
 gem "bootsnap", require: false
 gem "importmap-rails"
 gem "jbuilder"
+gem 'pagy'
 gem "pg"
 gem "puma", "~> 5.0"
 gem "rails", "~> 7.0.4"
 gem "sassc-rails"
 gem "sprockets-rails"
 gem "stimulus-rails"
+gem "tailwindcss-rails"
 gem "turbo-rails"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 

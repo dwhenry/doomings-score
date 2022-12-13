@@ -20,7 +20,10 @@ namespace :card_importer do
         card = Card.find_or_create_by(name: parsed_page.css('.card-name').text)
         card.update(
           favour: parsed_page.css('.flavor-text').text,
-          effect: parsed_page.css('.effect-text').text,
+          effect: (
+            parsed_page.css('.effect-text div').map(&:text) -
+              parsed_page.css('.effect-text.w-condition-invisible div'
+          ).map(&:text)).select(&:presence).join("\n"),
           colour: parsed_page.css('.color .collection-list-wrapper-2').text,
           points: parsed_page.css('.points .property-pill').text,
           collection: parsed_page.css('.collections .property-pill').text,
@@ -43,9 +46,8 @@ namespace :card_importer do
         puts card.name
 
         browser.div(class: 'next-block').link(class: 'prevnext-link-block').click
-        sleep 0.5
+        sleep 0.2
 
-          debugger
         if browser.url == start_url
           exit
         end
