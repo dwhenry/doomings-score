@@ -1,0 +1,20 @@
+<div class="text-6xl text-bolder text-blue-700 p-4 pb-2">
+  Doomlings Score Calculator
+</div>
+<div class="text-2xl text-bolder text-purple-600 p-4 pt-0">
+  Because why do it yourself
+</div>
+<div class="space-y-px h-full items-center">
+  <div class="text-center text-4xl h-1/4 flex items-center justify-center">
+    <%= link_to "Score a new Game", new_score_path, class: "text-gray-700 hover:text-blue-600 no-underline" %>
+  </div>
+
+  <div class="text-center text-4xl h-1/4 flex items-center justify-center">
+    <div class="inline-block">
+    <%= form_tag new_score_path do %>
+      <%= submit_tag "Add your score to a game", class: "text-gray-700 hover:text-blue-600 no-underline" %><br>
+      <%= text_field_tag :game_id, nil, class: "rounded-xl mt-5", placeholder: "Game ID"  %>
+    <% end %>
+      </div>
+  </div>
+</div>

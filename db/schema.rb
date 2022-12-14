@@ -10,20 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_12_221951) do
+ActiveRecord::Schema[7.0].define(version: 2022_12_13_235153) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "card_types", force: :cascade do |t|
-    t.bigint "card_id"
-    t.bigint "type_id"
+  create_table "card_types", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.uuid "card_id"
+    t.uuid "type_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["card_id"], name: "index_card_types_on_card_id"
     t.index ["type_id"], name: "index_card_types_on_type_id"
   end
 
-  create_table "cards", force: :cascade do |t|
+  create_table "cards", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "name"
     t.string "favour"
     t.string "effect"
@@ -35,11 +35,23 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_12_221951) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "types", force: :cascade do |t|
+  create_table "games", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.jsonb "players"
+    t.jsonb "cards"
+    t.datetime "last_scored"
+    t.string "winner"
+    t.uuid "previous_game_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["previous_game_id"], name: "index_games_on_previous_game_id"
+  end
+
+  create_table "types", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "name"
     t.boolean "subtype", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "games", "games", column: "previous_game_id"
 end

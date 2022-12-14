@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   # root "articles#index"
 
   resources :cards
+  resources :scores
 
   namespace :admin do
     resources :cards do
