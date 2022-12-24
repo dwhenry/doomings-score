@@ -12,8 +12,15 @@
   </head>
 
   <body>
-    <main class="container mx-auto px-5 pt-10 bg-gradient-to-r from-green-400 to-blue-500 h-screen">
-      <%= yield %>
+    <main class="container mx-auto bg-gradient-to-r from-green-400 to-blue-500 h-full">
+      <div class="flex bg-gray-700 p-2">
+        <div class="align-right text-white">
+          <%= current_user.name %>
+        </div>
+      </div>
+      <div class="px-5 pt-5">
+        <%= yield %>
+      </div>
     </main>
   </body>
 </html>

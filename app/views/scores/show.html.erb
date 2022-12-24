@@ -1,0 +1,17 @@
+<div class="grid grid-cols-2">
+  <div class="border">
+    <div class="text-bolder px-2 py-1">Cards</div>
+    <% cards.group_by(&:colour).each do |colour, cards_for_colour| %>
+      <div class="">
+        <div class="bg-gray-300 bg-opacity-60 px-2 py-1">
+          <%= colour %>
+        </div>
+        <div class="cards">
+          <% cards_for_colour.each do |card| %>
+            <div class="border-b px-2 py-1"><%= card.name %></div>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

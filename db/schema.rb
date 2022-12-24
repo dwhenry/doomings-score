@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_13_235153) do
+ActiveRecord::Schema[7.0].define(version: 2022_12_24_042314) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -36,14 +36,23 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_13_235153) do
   end
 
   create_table "games", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
-    t.jsonb "players"
+    t.string "name"
     t.jsonb "cards"
-    t.datetime "last_scored"
+    t.jsonb "decks"
     t.string "winner"
     t.uuid "previous_game_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["previous_game_id"], name: "index_games_on_previous_game_id"
+  end
+
+  create_table "players", force: :cascade do |t|
+    t.uuid "user_id", null: false
+    t.uuid "game_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["game_id"], name: "index_players_on_game_id"
+    t.index ["user_id"], name: "index_players_on_user_id"
   end
 
   create_table "types", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
@@ -53,5 +62,13 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_13_235153) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "users", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   add_foreign_key "games", "games", column: "previous_game_id"
+  add_foreign_key "players", "games"
+  add_foreign_key "players", "users"
 end
