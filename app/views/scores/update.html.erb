@@ -1,0 +1,20 @@
+<% if oldCard %>
+  <turbo-stream action="replace" target="User-<%= oldCard["owner"] %>">
+    <template>
+      <% game.users_and_data(oldCard["owner"]).each do |user, score, cards| %> %>
+        <%= render "user", game: game, user: user, score: score, cards: cards, visible: false %>
+      <% end %>
+    </template>
+  </turbo-stream>
+<% end %>
+
+<% if newCard %>
+  <% owner_id = newCard[:owner] || newCard["owner"] %>
+  <turbo-stream action="replace" target="User-<%= owner_id %>">
+    <template>
+      <% game.users_and_data(owner_id).each do |user, score, cards| %>
+        <%= render "user", game: game, user: user, score: score, cards: cards, visible: true %>
+      <% end %>
+    </template>
+  </turbo-stream>
+<% end %>

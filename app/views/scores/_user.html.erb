@@ -1,0 +1,22 @@
+<div id="User-<%= user.id %>" do %>
+  <div class="<%= "selected-user" if visible %> bg-gray-300 bg-opacity-60 px-2 py-1" data-tabs-target="tab" data-action="click->tabs#change" data-user-id="<%= user.id %>">
+    <div class="text-base font-bold"><%= user.name %></div>
+    Score: <%= score %> Cards: <%= cards.count %>
+  </div>
+  <div class="<%= "hidden" unless visible %> cards min-h-0 overflow-y-scroll" data-tabs-target="panel">
+    <% cards.each do |card, card_data| %>
+      <div class="border-b px-2 py-1 flex flex-row" data-controller="card-selector">
+        <div class="bg-<%= card.colour == "Colorless" ? "gray" : card.colour.downcase %>-400 border border-white rounded-full w-4 h-4 mr-1 flex justify-center">
+          &nbsp;
+        </div>
+        <div class="flex-grow overflow-hidden overflow-ellipsis min-w-0">
+          <%= card.name %>
+        </div>
+        <div class="place-self-end bg-white rounded-full w-4 flex justify-center">
+          <%= link_to "X", score_path(game.name, card: card.id), method: :delete, class: "text-red-600",
+            "data-card-selector-target": "submit", "data-action": "card-selector#delete"%>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

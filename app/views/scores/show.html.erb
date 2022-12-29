@@ -1,17 +1,27 @@
-<div class="grid grid-cols-2">
-  <div class="border">
-    <div class="text-bolder px-2 py-1">Cards</div>
+<div class="px-2 py-1 text-base font-bold" data-tabs-target="tab" data-action="click->tabs#change">
+  Game: <%= game.name %>
+</div>
+
+<div class="grid grid-cols-2 text-xs">
+  <div class="border flex flex-col max-h-80vh" data-controller="tabs" data-tabs-active-tab="selected-colour bg-red-700 text-white">
     <% cards.group_by(&:colour).each do |colour, cards_for_colour| %>
-      <div class="">
-        <div class="bg-gray-300 bg-opacity-60 px-2 py-1">
-          <%= colour %>
-        </div>
-        <div class="cards">
-          <% cards_for_colour.each do |card| %>
-            <div class="border-b px-2 py-1"><%= card.name %></div>
-          <% end %>
-        </div>
+      <div class="bg-gray-300 bg-opacity-60 px-2 py-1 text-base font-bold" data-tabs-target="tab" data-action="click->tabs#change">
+        <%= colour %>
       </div>
+      <div class="hidden cards min-h-0 overflow-y-scroll" data-tabs-target="panel">
+        <% cards_for_colour.each do |card| %>
+          <div class="border-b" data-controller="card-selector">
+            <%= link_to card.name, score_path(game.name, card: card.id), method: :patch,
+              "data-card-selector-target": "submit", "data-action": "card-selector#add",
+              class: "block px-2 py-1" %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+  <div class="border flex flex-col max-h-60vh" data-controller="tabs" data-tabs-active-tab="selected-user bg-red-700 text-white">
+    <% game.users_and_data.each do |user, score, cards| %>
+      <%= render "user", game: game, user: user, score: score, cards: cards, visible: false %>
     <% end %>
   </div>
 </div>
