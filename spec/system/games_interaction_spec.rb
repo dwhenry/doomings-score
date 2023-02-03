@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe "Game interactions", type: :system do
+RSpec.describe "Game interactions" do
   context "when user is anonymize" do
     it "can start a new game" do
       visit root_path
@@ -15,8 +15,8 @@ RSpec.describe "Game interactions", type: :system do
     end
 
     it "can join an existing game" do
-      user = User.create(name: "Doug")
-      existing_game = Game.create(name: User.generate_name, users: [user])
+      existing_game = create(:game)
+      user = existing_game.users.first
 
       visit root_path
 
@@ -25,9 +25,11 @@ RSpec.describe "Game interactions", type: :system do
 
       wait_for_turbolinks
 
+      new_user = User.where.not(name: user.name).first
+
       within '[data-test-id="players"]' do
-        expect(page).to have_content("Doug")
-        expect(page).to have_content(User.last.name)
+        expect(page).to have_content(user.name)
+        expect(page).to have_content(new_user.name)
       end
     end
   end

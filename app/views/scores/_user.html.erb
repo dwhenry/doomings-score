@@ -1,6 +1,7 @@
 <div id="User-<%= user.id %>" do %>
   <div class="bg-gray-300">
-    <div class="<%= "selected-user bg-red-700 text-white" if visible %> px-2 py-1" data-tabs-target="tab" data-action="click->tabs#change" data-user-id="<%= user.id %>">
+    <div class="<%= "selected-user bg-red-700 text-white" if visible %> px-2 py-1" data-tabs-target="tab"
+         data-action="click->tabs#change" data-user-id="<%= user.id %>" data-test-id="user-<%= user.id %>">
       <div class="text-base font-bold"><%= user.name %></div>
       Score: <%= score %> Cards: <%= cards.sum { |_, card| card["count"] } %>
     </div>
@@ -16,6 +17,7 @@
         </div>
         <div class="place-self-end bg-white rounded-full w-4 flex justify-center">
           <%= link_to "X", score_path(game.name, card: card.id), method: :delete, class: "text-red-600",
+            "data-test-id": "remove-all-#{user.id}-#{card.name}",
             "data-card-selector-target": "submit", "data-action": "card-selector#delete"%>
         </div>
       </div>
