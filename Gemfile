@@ -10,7 +10,7 @@ gem 'pagy'
 gem "pg"
 gem "puma", "~> 5.0"
 gem "rails", "~> 7.0.4"
-gem "sassc-rails"
+# gem "sassc-rails" incompatible with tailwind
 gem "sprockets-rails"
 gem "stimulus-rails"
 gem "tailwindcss-rails"

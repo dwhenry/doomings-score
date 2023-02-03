@@ -13,9 +13,9 @@
 
   <div class="text-center text-2xl lg:text-4xl my-8 lg:my-0 lg:h-1/4 flex items-center justify-center">
     <div class="inline-block">
-    <%= form_tag new_score_path do %>
+    <%= form_tag new_score_path, method: :get do %>
       <%= submit_tag "Add your score to a game", class: "text-gray-700 hover:text-blue-600 no-underline" %><br>
-      <%= text_field_tag :game_id, nil, class: "rounded-xl mt-5", placeholder: "Game ID"  %>
+      <%= text_field_tag :game_name, nil, class: "rounded-xl mt-5", placeholder: "Game Name"  %>
     <% end %>
       </div>
   </div>

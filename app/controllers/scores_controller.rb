@@ -4,7 +4,9 @@ class ScoresController < ApplicationController
   end
 
   def new
-    game = Game.create(name: User.generate_name, decks: ["Classic"])
+    puts params
+    game_name = params.fetch(:game_name, User.generate_name)
+    game = Game.find_or_create_by(name: game_name, decks: ["Classic"])
     game.users << current_user
 
     redirect_to score_path(game.name)
@@ -23,34 +25,8 @@ class ScoresController < ApplicationController
     card = Card.find(params[:card])
     user = User.find(params[:user_id])
 
-    game.cards ||= {}
-    oldCard = game.cards[card.id]
-    if oldCard.nil? || oldCard["owner"] != user.id
-      newCard = game.cards[card.id] = {
-        card_id: card.id,
-        owner: user.id,
-        actions: "???"
-      }
-      game.save!
+    game.update_card!(card: card, user: user, event_type: params[:event_type])
 
-      render :update, locals: { game: game, oldCard: oldCard, newCard: newCard }
-    else
-      render :update, locals: { game: game, oldCard: nil, newCard: nil }
-    end
-  end
-
-  def destroy
-    game = Game.find_by!(name: params[:id])
-    card = Card.find(params[:card])
-
-    oldCard = game.cards[card.id]
-    if oldCard
-      game.cards.delete(card.id)
-      game.save!
-
-      render :update, locals: { game: game, oldCard: nil, newCard: oldCard }
-    else
-      render :update, locals: { game: game, oldCard: nil, newCard: nil }
-    end
+    render :update, locals: { game: game, user: user }
   end
 end

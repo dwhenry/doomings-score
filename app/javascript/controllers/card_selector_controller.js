@@ -11,7 +11,15 @@ export default class extends Controller {
 
   add(event) {
     event.preventDefault();
+    this.processAction('add_card')
+  }
 
+  remove(event) {
+    event.preventDefault();
+    this.processAction('remove_card')
+  }
+
+  processAction(event_type) {
     let userId = document.querySelector(".selected-user").getAttribute("data-user-id")
 
     fetch(this.submitTarget.href, {
@@ -22,7 +30,8 @@ export default class extends Controller {
       },
       credentials: 'same-origin',
       body: JSON.stringify({
-       user_id: userId
+        user_id: userId,
+        event_type: event_type,
       })
     }).then (response => response.text())
     .then(html => Turbo.renderStreamMessage(html));
@@ -30,15 +39,6 @@ export default class extends Controller {
 
   delete(event) {
     event.preventDefault();
-
-    fetch(this.submitTarget.href, {
-      method: 'DELETE',
-      headers: {
-        'X-CSRF-Token': this.token,
-        'Content-Type': 'application/json'
-      },
-      credentials: 'same-origin'
-    }).then (response => response.text())
-    .then(html => Turbo.renderStreamMessage(html));
+    this.processAction('remove_all')
   }
 }

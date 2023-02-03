@@ -1,7 +1,9 @@
 <div id="User-<%= user.id %>" do %>
-  <div class="<%= "selected-user" if visible %> bg-gray-300 bg-opacity-60 px-2 py-1" data-tabs-target="tab" data-action="click->tabs#change" data-user-id="<%= user.id %>">
-    <div class="text-base font-bold"><%= user.name %></div>
-    Score: <%= score %> Cards: <%= cards.count %>
+  <div class="bg-gray-300">
+    <div class="<%= "selected-user bg-red-700 text-white" if visible %> px-2 py-1" data-tabs-target="tab" data-action="click->tabs#change" data-user-id="<%= user.id %>">
+      <div class="text-base font-bold"><%= user.name %></div>
+      Score: <%= score %> Cards: <%= cards.sum { |_, card| card["count"] } %>
+    </div>
   </div>
   <div class="<%= "hidden" unless visible %> cards min-h-0 overflow-y-scroll" data-tabs-target="panel">
     <% cards.each do |card, card_data| %>
@@ -10,7 +12,7 @@
           &nbsp;
         </div>
         <div class="flex-grow overflow-hidden overflow-ellipsis min-w-0">
-          <%= card.name %>
+          <%= card.name %> (<%= card_data["count"] %>)
         </div>
         <div class="place-self-end bg-white rounded-full w-4 flex justify-center">
           <%= link_to "X", score_path(game.name, card: card.id), method: :delete, class: "text-red-600",
