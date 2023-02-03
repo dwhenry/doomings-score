@@ -1,0 +1,22 @@
+{
+  "id": "64dc15b1-9f8e-4e15-b94e-627bf5569b2f",
+  "name": "THE COSMIC JINX",
+  "favour": "",
+  "effect": "+3 if your Gene Pool is 3. +7 if your Gene Pool is 1 or 2.",
+  "colour": "Purple",
+  "points": null,
+  "collection": "Meaning of Life",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:16.049Z",
+  "updated_at": "2022-12-14T00:03:16.074Z",
+  "types": [
+    {
+      "id": "4d0aaadd-ea13-4dea-87fc-1c299a6c5a73",
+      "name": "Sign",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:15.251Z",
+      "updated_at": "2022-12-14T00:03:15.251Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cbab82ce-d374-48cc-a546-8a2a104f7d4c",
+  "name": "JOY",
+  "favour": "",
+  "effect": "Draw 1 card, or discard 2 cards.",
+  "colour": "Colorless",
+  "points": null,
+  "collection": "KSE",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:02.306Z",
+  "updated_at": "2022-12-14T00:03:02.328Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

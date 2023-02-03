@@ -1,0 +1,29 @@
+{
+  "id": "748c0141-3f95-49b9-9f87-0bdd5e568735",
+  "name": "NECROMANTIC",
+  "favour": "“Why don’t we head back to my place? I’ve got plenty of spirits.”“Why don’t we head back to my place? I’ve got plenty of spirits.”",
+  "effect": "You may play Necromantic from your hand when an opponent discards a trait. Add that trait to your hand.",
+  "colour": "Purple",
+  "points": 1,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:28.381Z",
+  "updated_at": "2022-12-14T00:02:28.396Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "f57a517f-1aef-4d31-94d2-33f174d11ada",
+      "name": "Play When",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:06.559Z",
+      "updated_at": "2022-12-14T00:01:06.559Z"
+    }
+  ]
+}

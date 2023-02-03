@@ -1,0 +1,29 @@
+{
+  "id": "f2d0eacf-8862-4d6f-b025-a89eaad34ccc",
+  "name": "DIAPHANOUS WINGS",
+  "favour": "They help you fly, but they break easily. Like budget airlines.They help you fly, but they break easily. Like budget airlines.",
+  "effect": "",
+  "colour": "Blue",
+  "points": -1,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:22.567Z",
+  "updated_at": "2022-12-14T00:02:22.590Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

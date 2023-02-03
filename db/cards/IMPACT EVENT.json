@@ -1,0 +1,29 @@
+{
+  "id": "cc7f9b6e-0374-4249-892c-1710702482a6",
+  "name": "IMPACT EVENT",
+  "favour": "",
+  "effect": "-1 Gene Pool\nDiscard 1 card from your hand for each dominant trait in your trait pile.\nWorld's End:\n-1 for each trait in your trait pile with a face value of 3 or more.",
+  "colour": "Red",
+  "points": null,
+  "collection": "Dinolings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:12.969Z",
+  "updated_at": "2022-12-14T00:03:12.993Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    },
+    {
+      "id": "d2f9ce5c-82a3-4337-8dba-9c2ac3cfa4e8",
+      "name": "Catastrophe",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:02.773Z",
+      "updated_at": "2022-12-14T00:03:02.773Z"
+    }
+  ]
+}

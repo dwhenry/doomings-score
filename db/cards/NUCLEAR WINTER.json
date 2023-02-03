@@ -1,0 +1,29 @@
+{
+  "id": "2e6fbc91-6de0-4761-8cc8-623a09c19a44",
+  "name": "NUCLEAR WINTER",
+  "favour": "",
+  "effect": "-2 Gene Pool\nStabilize.\nWorld's End:\nDiscard 1 colorless trait from your trait pile.",
+  "colour": "Red",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:08.959Z",
+  "updated_at": "2022-12-14T00:03:08.980Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    },
+    {
+      "id": "d2f9ce5c-82a3-4337-8dba-9c2ac3cfa4e8",
+      "name": "Catastrophe",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:02.773Z",
+      "updated_at": "2022-12-14T00:03:02.773Z"
+    }
+  ]
+}

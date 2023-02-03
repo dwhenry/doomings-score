@@ -1,0 +1,29 @@
+{
+  "id": "2d8e0855-27f6-496f-9cf6-ea3662a3b79f",
+  "name": "ELOQUENCE",
+  "favour": "Say the right thing, then stop talking.Say the right thing, then stop talking.",
+  "effect": "At World's End: Play another trait. Ignore its action.",
+  "colour": "Colorless",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:33.085Z",
+  "updated_at": "2022-12-14T00:01:33.104Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "0d3cbc68-46fc-47e3-8f4b-a9d5dbcf241d",
+      "name": "World's End",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:30.871Z",
+      "updated_at": "2022-12-14T00:01:30.871Z"
+    }
+  ]
+}

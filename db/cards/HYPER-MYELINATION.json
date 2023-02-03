@@ -1,0 +1,29 @@
+{
+  "id": "f2102521-a4fa-4390-9ef1-b0f719f48874",
+  "name": "HYPER-MYELINATION",
+  "favour": "\"Does my central nervous system make you nervous?\"\"Does my central nervous system make you nervous?\"",
+  "effect": "Value is equal to the size of the highest Gene Pool.",
+  "colour": "Purple",
+  "points": 0,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:41.580Z",
+  "updated_at": "2022-12-14T00:02:41.597Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

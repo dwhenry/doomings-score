@@ -1,0 +1,29 @@
+{
+  "id": "d91b6b32-9bf1-48e7-b99d-cbfbb9c1f5bf",
+  "name": "JUST",
+  "favour": "\"Are these scales balanced? I can't see a thing!\"\"Are these scales balanced? I can't see a thing!\"",
+  "effect": "+1 Gene Pool",
+  "colour": "Colorless",
+  "points": 2,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:37.217Z",
+  "updated_at": "2022-12-14T00:01:37.237Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "ba766a53-4d5c-484b-a791-4208d5ebc6f6",
+      "name": "Gene Pool",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:12.422Z",
+      "updated_at": "2022-12-14T00:01:12.422Z"
+    }
+  ]
+}

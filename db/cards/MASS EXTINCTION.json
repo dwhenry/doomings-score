@@ -1,0 +1,29 @@
+{
+  "id": "14d6e81d-f264-49a5-b9fc-27e948327b32",
+  "name": "MASS EXTINCTION",
+  "favour": "",
+  "effect": "-1 Gene Pool\nDiscard 1 card from your hand for every colorless trait in your trait pile.\nWorld's End:\nDiscard 1 green trait from your trait pile.",
+  "colour": "Colorless",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:08.016Z",
+  "updated_at": "2022-12-14T00:03:08.040Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    },
+    {
+      "id": "d2f9ce5c-82a3-4337-8dba-9c2ac3cfa4e8",
+      "name": "Catastrophe",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:02.773Z",
+      "updated_at": "2022-12-14T00:03:02.773Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "92fd72ae-eb60-40d2-979f-05c0546877c5",
+  "name": "MECHA",
+  "favour": "The ultimate prom outfit.The ultimate prom outfit.",
+  "effect": "You may play 1 effectless trait.",
+  "colour": "Blue",
+  "points": 2,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:35.485Z",
+  "updated_at": "2022-12-14T00:02:35.505Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

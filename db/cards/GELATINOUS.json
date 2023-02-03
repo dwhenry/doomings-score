@@ -1,0 +1,29 @@
+{
+  "id": "faf52507-2dcc-4b7d-8f0d-ae8641ea6486",
+  "name": "GELATINOUS",
+  "favour": "Stuck in a real ooze-ooze situation.Stuck in a real ooze-ooze situation.",
+  "effect": "Look at an opponent's hand. You may steal 2 of their cards.",
+  "colour": "Red",
+  "points": 1,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:32.986Z",
+  "updated_at": "2022-12-14T00:02:33.014Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

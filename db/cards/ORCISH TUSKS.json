@@ -1,0 +1,29 @@
+{
+  "id": "f4849f1e-f05e-4588-ab8f-7d89d13e1a13",
+  "name": "ORCISH TUSKS",
+  "favour": "\"All I want for Christmas is my two front teeth...and maybe a war.\"\"All I want for Christmas is my two front teeth...and maybe a war.\"",
+  "effect": "Look at an opponent's hand. Choose half to discard. Round down.",
+  "colour": "Green",
+  "points": 1,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:25.292Z",
+  "updated_at": "2022-12-14T00:02:25.315Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

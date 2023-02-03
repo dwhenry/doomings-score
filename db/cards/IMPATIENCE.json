@@ -1,0 +1,29 @@
+{
+  "id": "0b635179-15fe-4d01-b1ac-77a4777f9ebe",
+  "name": "IMPATIENCE",
+  "favour": "\"Would you make a move already?\"\"Would you make a move already?\"",
+  "effect": "Steal 2 random cards from an opponent's hand.",
+  "colour": "Purple",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:49.268Z",
+  "updated_at": "2022-12-14T00:01:49.288Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

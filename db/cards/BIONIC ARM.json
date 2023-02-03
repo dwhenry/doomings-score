@@ -1,0 +1,29 @@
+{
+  "id": "03fec816-c8c2-4544-a862-38b0bc2157c0",
+  "name": "BIONIC ARM",
+  "favour": "Never lose another thumb war.Never lose another thumb war.",
+  "effect": "+1 for each Techling in your trait pile. (Including this one.) +2 for each Techling if a trait is attached to Bionic Arm.",
+  "colour": "Red",
+  "points": -1,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:43.460Z",
+  "updated_at": "2022-12-14T00:02:43.469Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

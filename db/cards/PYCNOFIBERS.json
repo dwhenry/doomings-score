@@ -1,0 +1,29 @@
+{
+  "id": "4d661310-9b42-4828-8ab2-6378e0fffc88",
+  "name": "PYCNOFIBERS",
+  "favour": "\"Every story about me is a fluff piece.\"\"Every story about me is a fluff piece.\"",
+  "effect": "Draw 1 card. If it is a dominant trait, discard it. If it is not, play it immediately. Ignore its action.",
+  "colour": "Colorless",
+  "points": 1,
+  "collection": "Dinolings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:17.456Z",
+  "updated_at": "2022-12-14T00:02:17.468Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

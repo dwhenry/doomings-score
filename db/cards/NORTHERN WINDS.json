@@ -1,0 +1,22 @@
+{
+  "id": "9507ef17-4dcb-4506-949f-0d02e00b9d9e",
+  "name": "NORTHERN WINDS",
+  "favour": "",
+  "effect": "Draw 1 card. Discard 1 card from your hand.",
+  "colour": "Blue",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:46.866Z",
+  "updated_at": "2022-12-14T00:02:46.887Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

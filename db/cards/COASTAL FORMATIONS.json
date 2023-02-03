@@ -1,0 +1,22 @@
+{
+  "id": "d5c09162-1d36-4883-a866-4176fb63f826",
+  "name": "COASTAL FORMATIONS",
+  "favour": "",
+  "effect": "Draw 1 card after you stabilize.",
+  "colour": "Green",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:51.558Z",
+  "updated_at": "2022-12-14T00:02:51.575Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "55971039-20ef-428b-8686-ce649368a490",
+  "name": "ENDURANCE",
+  "favour": "\"Catastrophes can't trample me!\"\"Catastrophes can't trample me!\"",
+  "effect": "Whenever you discard Endurance from your trait pile, return it to your trait pile.",
+  "colour": "Red",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:01.666Z",
+  "updated_at": "2022-12-14T00:02:01.685Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "57ffc5ef-4f93-4dcc-90ad-a0f60140eb59",
+      "name": "Persistent",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.358Z",
+      "updated_at": "2022-12-14T00:01:02.358Z"
+    }
+  ]
+}

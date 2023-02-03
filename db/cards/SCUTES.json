@@ -1,0 +1,29 @@
+{
+  "id": "12ca75fb-36c9-4f0f-b900-e1f483e530a9",
+  "name": "SCUTES",
+  "favour": "\"When this is over, my victory will be shellebrated!\"\"When this is over, my victory will be shellebrated!\"",
+  "effect": "Give an opponent 1 trait from your trait pile.",
+  "colour": "Blue",
+  "points": 3,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:12.730Z",
+  "updated_at": "2022-12-14T00:01:12.749Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

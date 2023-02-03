@@ -1,0 +1,29 @@
+{
+  "id": "02239137-5d55-43a1-a38a-0c071aa022b5",
+  "name": "ACROBATIC",
+  "favour": "\"¡Me llaman Jungle Jim!\"\"¡Me llaman Jungle Jim!\"",
+  "effect": "",
+  "colour": "GreenPurpleMulti-color",
+  "points": 2,
+  "collection": "Multi-Color",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:09.891Z",
+  "updated_at": "2022-12-14T00:02:09.908Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "bb842b84-8538-4596-9641-b95a01897cc8",
+  "name": "KIDNEY (3)",
+  "favour": "...with a chef's toque....with a chef's toque.",
+  "effect": "Value is equal to the number of Kidneys in your trait pile. (Including this one.)",
+  "colour": "Red",
+  "points": 0,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:05.060Z",
+  "updated_at": "2022-12-14T00:02:05.078Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

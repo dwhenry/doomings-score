@@ -1,0 +1,29 @@
+{
+  "id": "a1122f21-9e73-4357-b216-768603f9dfa7",
+  "name": "BAD",
+  "favour": "\"No cuts, no glory.\"\"No cuts, no glory.\"",
+  "effect": "Opponents discard 2 cards from their hand at random.",
+  "colour": "Red",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:59.191Z",
+  "updated_at": "2022-12-14T00:01:59.209Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

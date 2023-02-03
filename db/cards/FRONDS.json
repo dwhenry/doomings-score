@@ -1,0 +1,36 @@
+{
+  "id": "af770a8a-ff14-4689-8022-faa2476929b3",
+  "name": "FRONDS",
+  "favour": "\"I haven't had a haircut since the Jurassic era.\"\"I haven't had a haircut since the Jurassic era.\"",
+  "effect": "To play, you must discard 1 trait from your trait pile. +2 Gene Pool",
+  "colour": "Green",
+  "points": 0,
+  "collection": "Dinolings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:15.765Z",
+  "updated_at": "2022-12-14T00:02:15.782Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "1da42369-4c13-4c60-811e-1885798d2a8a",
+      "name": "Requirement",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:16.850Z",
+      "updated_at": "2022-12-14T00:01:16.850Z"
+    },
+    {
+      "id": "ba766a53-4d5c-484b-a791-4208d5ebc6f6",
+      "name": "Gene Pool",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:12.422Z",
+      "updated_at": "2022-12-14T00:01:12.422Z"
+    }
+  ]
+}

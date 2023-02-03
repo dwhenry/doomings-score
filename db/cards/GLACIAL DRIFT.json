@@ -1,0 +1,22 @@
+{
+  "id": "920da1cf-5bc3-445f-9485-23ad3c5c74fa",
+  "name": "GLACIAL DRIFT",
+  "favour": "",
+  "effect": "You may only play traits with a face value of 3 or lower.",
+  "colour": "Blue",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:45.162Z",
+  "updated_at": "2022-12-14T00:02:45.175Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "868b2aae-9080-4b57-91c8-86156e2689b4",
+  "name": "AWAKENING",
+  "favour": "",
+  "effect": "Preview the next age before you take your turn.",
+  "colour": "Colorless",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:49.725Z",
+  "updated_at": "2022-12-14T00:02:49.742Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

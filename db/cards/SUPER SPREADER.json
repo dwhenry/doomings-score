@@ -1,0 +1,29 @@
+{
+  "id": "b9f14481-fcdf-46c7-9730-2a515195a18c",
+  "name": "SUPER SPREADER",
+  "favour": "\"Ah...AH...AH...false alarm, I thought I was gon--CHOO!\"\"Ah...AH...AH...false alarm, I thought I was gon--CHOO!\"",
+  "effect": "All players receive: -1 Gene Pool. (Including yourself.)",
+  "colour": "Purple",
+  "points": 2,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:55.588Z",
+  "updated_at": "2022-12-14T00:01:55.604Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "ba766a53-4d5c-484b-a791-4208d5ebc6f6",
+      "name": "Gene Pool",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:12.422Z",
+      "updated_at": "2022-12-14T00:01:12.422Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "0dff25d6-1701-4c86-94a0-f80e4d06b696",
+  "name": "BONY PLATES",
+  "favour": "\"Before the wedding, I'm throwing a steg party.\"\"Before the wedding, I'm throwing a steg party.\"",
+  "effect": "Opponents may draw 1 card if they reveal a Dinoling in their hand.",
+  "colour": "Green",
+  "points": 2,
+  "collection": "Dinolings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:14.896Z",
+  "updated_at": "2022-12-14T00:02:14.915Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

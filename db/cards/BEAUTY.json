@@ -1,0 +1,29 @@
+{
+  "id": "251a0c34-6c3f-4d70-9584-e191bfc3e1fd",
+  "name": "BEAUTY",
+  "favour": "In the eye of the beholder. As in your eye. Since you be the holder of this card.In the eye of the beholder. As in your eye. Since you be the holder of this card.",
+  "effect": "Return 1 trait to your hand. Play another trait. Ignore its action. ",
+  "colour": "Green",
+  "points": 2,
+  "collection": "KSE",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:27.807Z",
+  "updated_at": "2022-12-14T00:03:27.833Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

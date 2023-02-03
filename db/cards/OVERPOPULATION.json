@@ -1,0 +1,29 @@
+{
+  "id": "eb0b3114-442e-44de-93c4-bbf837de46ba",
+  "name": "OVERPOPULATION",
+  "favour": "",
+  "effect": "1+ Gene Pool\nDraw 1 card for every color type in your trait pile.\nWorld's End:\n +4 points to the player(s) with the fewest traits in their trait pile.",
+  "colour": "Green",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:03.708Z",
+  "updated_at": "2022-12-14T00:03:03.731Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    },
+    {
+      "id": "d2f9ce5c-82a3-4337-8dba-9c2ac3cfa4e8",
+      "name": "Catastrophe",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:02.773Z",
+      "updated_at": "2022-12-14T00:03:02.773Z"
+    }
+  ]
+}

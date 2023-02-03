@@ -1,0 +1,29 @@
+{
+  "id": "3f627904-4cda-4a7a-ad03-bdfb5c4714dd",
+  "name": "TENTACLES",
+  "favour": "\"This would taste good with some barter sauce.\"\"This would taste good with some barter sauce.\"",
+  "effect": "Swap any 2 traits of different colors between any 2 trait piles.",
+  "colour": "Blue",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:15.624Z",
+  "updated_at": "2022-12-14T00:01:15.643Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

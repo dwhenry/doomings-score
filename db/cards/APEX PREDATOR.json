@@ -1,0 +1,36 @@
+{
+  "id": "cdca5693-904c-48a7-8430-736ea5eca52f",
+  "name": "APEX PREDATOR",
+  "favour": "\"Where do you think you're goin'?\"\"Where do you think you're goin'?\"",
+  "effect": "+4 if you have more traits in your trait pile than your opponents. (Ties don't count!)",
+  "colour": "Red",
+  "points": 4,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:58.437Z",
+  "updated_at": "2022-12-14T00:01:58.446Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    },
+    {
+      "id": "8685297c-2edc-4fb6-82b9-8d458abe8892",
+      "name": "Dominant",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.369Z",
+      "updated_at": "2022-12-14T00:01:02.369Z"
+    }
+  ]
+}

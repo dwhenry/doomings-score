@@ -1,0 +1,29 @@
+{
+  "id": "a3fab17e-ff08-4f0c-a941-99bfb1b96df9",
+  "name": "PHREAKISH EYES",
+  "favour": "The big one assesses threat level. The little one detects allergies.The big one assesses threat level. The little one detects allergies.",
+  "effect": "Draw 3 cards. All opponents also draw a card.",
+  "colour": "Red",
+  "points": 2,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:44.282Z",
+  "updated_at": "2022-12-14T00:02:44.310Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

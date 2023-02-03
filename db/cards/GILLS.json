@@ -1,0 +1,29 @@
+{
+  "id": "39c331e4-0014-4964-b908-5161ad7aea7a",
+  "name": "GILLS",
+  "favour": "\"I need a breath of fresh water.\"\"I need a breath of fresh water.\"",
+  "effect": "",
+  "colour": "Blue",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:08.545Z",
+  "updated_at": "2022-12-14T00:01:08.564Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

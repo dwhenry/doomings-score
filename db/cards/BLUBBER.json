@@ -1,0 +1,29 @@
+{
+  "id": "3375adbf-3d9f-43bd-af4a-8754d5407472",
+  "name": "BLUBBER",
+  "favour": "\"It's protective fat, thank you very much.\"\"It's protective fat, thank you very much.\"",
+  "effect": "",
+  "colour": "Blue",
+  "points": 4,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:04.753Z",
+  "updated_at": "2022-12-14T00:01:04.762Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "d48b67ae-1f8a-41b4-ae8d-c7913ae20bca",
+  "name": "BINARY",
+  "favour": "\"They're a 1, I'm a 0. Together, we're a 10.\"\"They're a 1, I'm a 0. Together, we're a 10.\"",
+  "effect": "Steal a trait with a face value of 0 or 1 from an opponent's trait pile. Play its action.",
+  "colour": "Colorless",
+  "points": 0,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:39.149Z",
+  "updated_at": "2022-12-14T00:02:39.175Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

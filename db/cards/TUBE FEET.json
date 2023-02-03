@@ -1,0 +1,29 @@
+{
+  "id": "72a47c6b-70fa-4a66-8a41-efcb9bc27c60",
+  "name": "TUBE FEET",
+  "favour": "\"Forget Hollywood! I'm a star with my own walk of fame!\"\"Forget Hollywood! I'm a star with my own walk of fame!\"",
+  "effect": "Play 1 trait from the discard pile. Ignore its action. Then discard 1 trait from your trait pile. ",
+  "colour": "Blue",
+  "points": 2,
+  "collection": "KSE",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:27.350Z",
+  "updated_at": "2022-12-14T00:03:27.374Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "1719e35f-6c63-4618-8dc8-5c6f0b4cc79b",
+  "name": "RUGGEDIZED",
+  "favour": "\"I am impenetrable corn. Bee boop.\"\"I am impenetrable corn. Bee boop.\"",
+  "effect": "Attach to a trait. Host trait cannot be removed from your trait pile. You may attach to a new host trait at the end of each turn.",
+  "colour": "Colorless",
+  "points": 4,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:38.734Z",
+  "updated_at": "2022-12-14T00:02:38.763Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "e1e7cb93-181c-4c29-a0a4-3ee0dd57fa0a",
+      "name": "Attachment",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:34.529Z",
+      "updated_at": "2022-12-14T00:02:34.529Z"
+    },
+    {
+      "id": "8685297c-2edc-4fb6-82b9-8d458abe8892",
+      "name": "Dominant",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.369Z",
+      "updated_at": "2022-12-14T00:01:02.369Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "8da35d08-a3fa-4b14-ad20-c4a9947f58d3",
+  "name": "RANDOM FERTILIZATION",
+  "favour": "\"Pick a number between 1 and 64 trillion.\"\"Pick a number between 1 and 64 trillion.\"",
+  "effect": "Value is equal to the size of your Gene Pool.",
+  "colour": "Green",
+  "points": 0,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:23.668Z",
+  "updated_at": "2022-12-14T00:01:23.685Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

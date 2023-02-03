@@ -1,0 +1,22 @@
+{
+  "id": "510d698f-8cb5-4648-9937-6e10c816c7e9",
+  "name": "THE LUMBERJACK",
+  "favour": "",
+  "effect": "+3 if you have only 1 or 2 green traits in your trait pile. +6 if you have none.",
+  "colour": "Green",
+  "points": null,
+  "collection": "Meaning of Life",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:19.937Z",
+  "updated_at": "2022-12-14T00:03:19.954Z",
+  "types": [
+    {
+      "id": "4d0aaadd-ea13-4dea-87fc-1c299a6c5a73",
+      "name": "Sign",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:15.251Z",
+      "updated_at": "2022-12-14T00:03:15.251Z"
+    }
+  ]
+}

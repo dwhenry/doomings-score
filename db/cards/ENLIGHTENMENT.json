@@ -1,0 +1,22 @@
+{
+  "id": "138d1075-2070-4fe4-b981-46d063f4035c",
+  "name": "ENLIGHTENMENT",
+  "favour": "",
+  "effect": "You may discard 2 cards before you stabilize.",
+  "colour": "Purple",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:58.789Z",
+  "updated_at": "2022-12-14T00:02:58.823Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

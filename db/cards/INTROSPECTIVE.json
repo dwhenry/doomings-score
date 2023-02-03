@@ -1,0 +1,29 @@
+{
+  "id": "d61ec176-caa8-4376-a393-44ec704cb639",
+  "name": "INTROSPECTIVE",
+  "favour": "\"Puddle, puddle on the street, will I ever feel complete?\"\"Puddle, puddle on the street, will I ever feel complete?\"",
+  "effect": "Draw 4 cards.",
+  "colour": "Colorless",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:36.036Z",
+  "updated_at": "2022-12-14T00:01:36.052Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

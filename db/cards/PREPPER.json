@@ -1,0 +1,29 @@
+{
+  "id": "3656a4c0-7963-4d05-8ddb-64c74eed043a",
+  "name": "PREPPER",
+  "favour": "\"More like Apocalypse No.\"\"More like Apocalypse No.\"",
+  "effect": "At World's End: Choose a World's End effect from the 3 catastrophes played for players to end on.",
+  "colour": "Colorless",
+  "points": 2,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:39.824Z",
+  "updated_at": "2022-12-14T00:01:39.878Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "0d3cbc68-46fc-47e3-8f4b-a9d5dbcf241d",
+      "name": "World's End",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:30.871Z",
+      "updated_at": "2022-12-14T00:01:30.871Z"
+    }
+  ]
+}

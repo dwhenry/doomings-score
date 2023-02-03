@@ -1,0 +1,22 @@
+{
+  "id": "130f73fe-c621-4b30-9dbf-d198e9c77935",
+  "name": "REFORESTATION",
+  "favour": "",
+  "effect": "Traits in your trait pile cannot be swapped, stolen, or discarded.",
+  "colour": "Green",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:54.551Z",
+  "updated_at": "2022-12-14T00:02:54.580Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

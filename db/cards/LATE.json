@@ -1,0 +1,29 @@
+{
+  "id": "2ce1acde-6547-494a-b5e0-3c98c0bfb328",
+  "name": "LATE",
+  "favour": "\"Sorry I'm Late.\"\"Sorry I'm Late.\"",
+  "effect": "You may play Late from your hand after you stabilize.",
+  "colour": "Colorless",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:37.597Z",
+  "updated_at": "2022-12-14T00:01:37.611Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "f57a517f-1aef-4d31-94d2-33f174d11ada",
+      "name": "Play When",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:06.559Z",
+      "updated_at": "2022-12-14T00:01:06.559Z"
+    }
+  ]
+}

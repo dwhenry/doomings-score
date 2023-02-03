@@ -1,0 +1,29 @@
+{
+  "id": "14c0c401-01ab-4056-8a6c-a515c539f5c3",
+  "name": "PRIDE",
+  "favour": "Proud parent of a cub who bit an honor roll student.Proud parent of a cub who bit an honor roll student.",
+  "effect": "Discard your hand and draw 4 cards. Do not stabilize.",
+  "colour": "Red",
+  "points": 2,
+  "collection": "KSE",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:28.694Z",
+  "updated_at": "2022-12-14T00:03:28.718Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

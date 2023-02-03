@@ -1,0 +1,29 @@
+{
+  "id": "1c1db9c4-1ee0-48d4-a16a-7d9b9fe227ec",
+  "name": "HEAT VISION",
+  "favour": "\"I'd like to make a toast.''\"I'd like to make a toast.''",
+  "effect": "+1 for each red trait in your trait pile. (Including this one.)",
+  "colour": "Red",
+  "points": -1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:03.475Z",
+  "updated_at": "2022-12-14T00:02:03.493Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

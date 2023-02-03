@@ -1,0 +1,29 @@
+{
+  "id": "66d067bb-b4f2-4220-93e0-b81dc93d7727",
+  "name": "DOTING",
+  "favour": "\"OK! These are the last of the cookies. Unless you want more. I'll make more.\"\"OK! These are the last of the cookies. Unless you want more. I'll make more.\"",
+  "effect": "Give an opponent 1 card from your hand.",
+  "colour": "Colorless",
+  "points": 2,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:32.707Z",
+  "updated_at": "2022-12-14T00:01:32.725Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "56df9785-1eee-4aeb-8d0c-6b0cfc058b2f",
+  "name": "DEUS EX MACHINA",
+  "favour": "",
+  "effect": "0+ Gene Pool\nStabilize. Catastrophe averted.\nWorld's End:\nDraw a card. Add its face value to your final score. Then discard it.",
+  "colour": "Green",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:03.274Z",
+  "updated_at": "2022-12-14T00:03:03.291Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    },
+    {
+      "id": "d2f9ce5c-82a3-4337-8dba-9c2ac3cfa4e8",
+      "name": "Catastrophe",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:02.773Z",
+      "updated_at": "2022-12-14T00:03:02.773Z"
+    }
+  ]
+}

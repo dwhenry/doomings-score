@@ -1,0 +1,22 @@
+{
+  "id": "5ae3fd63-e224-4bf8-bea8-d2d131c2d497",
+  "name": "BIRTH OF A HERO",
+  "favour": "",
+  "effect": "If you hold Heroic, play it now without restriction.",
+  "colour": "Green",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:51.156Z",
+  "updated_at": "2022-12-14T00:02:51.182Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

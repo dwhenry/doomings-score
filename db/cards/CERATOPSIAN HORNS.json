@@ -1,0 +1,29 @@
+{
+  "id": "f7b2001d-b34b-44ed-ad3b-9481ca22053a",
+  "name": "CERATOPSIAN HORNS",
+  "favour": "Named after the North American Michael Cera.Named after the North American Michael Cera.",
+  "effect": "",
+  "colour": "Green",
+  "points": 4,
+  "collection": "Dinolings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:15.327Z",
+  "updated_at": "2022-12-14T00:02:15.342Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

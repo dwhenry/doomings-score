@@ -1,0 +1,29 @@
+{
+  "id": "469276a8-8965-4b0c-bcf8-0f4435c84423",
+  "name": "TINY ARMS",
+  "favour": "Reach out and touch prey.Reach out and touch prey.",
+  "effect": "+1 for each Dinoling in the discard pile.",
+  "colour": "Red",
+  "points": -1,
+  "collection": "Dinolings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:20.494Z",
+  "updated_at": "2022-12-14T00:02:20.517Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

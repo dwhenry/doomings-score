@@ -1,0 +1,29 @@
+{
+  "id": "c6d2d286-faaf-497a-88bd-f953b96364b1",
+  "name": "GREY GOO",
+  "favour": "",
+  "effect": "0+ Gene Pool\nDiscard your hand and stabilize.\nWorld's End:\n-5 points to the player(s) with the most traits in their trait pile.",
+  "colour": "Colorless",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:06.767Z",
+  "updated_at": "2022-12-14T00:03:06.778Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    },
+    {
+      "id": "d2f9ce5c-82a3-4337-8dba-9c2ac3cfa4e8",
+      "name": "Catastrophe",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:02.773Z",
+      "updated_at": "2022-12-14T00:03:02.773Z"
+    }
+  ]
+}

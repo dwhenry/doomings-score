@@ -1,0 +1,29 @@
+{
+  "id": "ff53ce79-38ee-4d15-90db-7026013082ae",
+  "name": "VAMPIRISM",
+  "favour": "\"I vant to sock your blahhhd.\"\"I vant to sock your blahhhd.\"",
+  "effect": "Steal a trait from an opponent's trait pile. Play its action.",
+  "colour": "Purple",
+  "points": 3,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:42.199Z",
+  "updated_at": "2022-12-14T00:01:42.213Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "8685297c-2edc-4fb6-82b9-8d458abe8892",
+      "name": "Dominant",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.369Z",
+      "updated_at": "2022-12-14T00:01:02.369Z"
+    }
+  ]
+}

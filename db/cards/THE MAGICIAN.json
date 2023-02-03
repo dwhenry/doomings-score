@@ -1,0 +1,22 @@
+{
+  "id": "12b9c0e6-3ec1-4e2d-b637-07d635eb2033",
+  "name": "THE MAGICIAN",
+  "favour": "",
+  "effect": "+3 if you have only 1 or 2 colorless traits in your trait pile. +6 if you have none.",
+  "colour": "Colorless",
+  "points": null,
+  "collection": "Meaning of Life",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:20.866Z",
+  "updated_at": "2022-12-14T00:03:20.892Z",
+  "types": [
+    {
+      "id": "4d0aaadd-ea13-4dea-87fc-1c299a6c5a73",
+      "name": "Sign",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:15.251Z",
+      "updated_at": "2022-12-14T00:03:15.251Z"
+    }
+  ]
+}

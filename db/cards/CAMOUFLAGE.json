@@ -1,0 +1,43 @@
+{
+  "id": "2e44e941-0d85-4d7b-8c8f-46a2ad4f5984",
+  "name": "CAMOUFLAGE",
+  "favour": "Blend in with the wilderness or stand out at a wedding.Blend in with the wilderness or stand out at a wedding.",
+  "effect": "+1 Gene Pool.  +1 for each card in your hand. ",
+  "colour": "Purple",
+  "points": 2,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:43.797Z",
+  "updated_at": "2022-12-14T00:01:43.814Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    },
+    {
+      "id": "8685297c-2edc-4fb6-82b9-8d458abe8892",
+      "name": "Dominant",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.369Z",
+      "updated_at": "2022-12-14T00:01:02.369Z"
+    },
+    {
+      "id": "ba766a53-4d5c-484b-a791-4208d5ebc6f6",
+      "name": "Gene Pool",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:12.422Z",
+      "updated_at": "2022-12-14T00:01:12.422Z"
+    }
+  ]
+}

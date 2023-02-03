@@ -1,0 +1,22 @@
+{
+  "id": "114a48f0-c2f4-4224-90ec-0f5374aad4ca",
+  "name": "SEA KINGDOMS",
+  "favour": "",
+  "effect": "Play 2 traits this turn. Ignore actions.",
+  "colour": "Blue",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:47.338Z",
+  "updated_at": "2022-12-14T00:02:47.363Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

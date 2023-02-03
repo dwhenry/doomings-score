@@ -1,0 +1,29 @@
+{
+  "id": "2eaf2f86-5561-46eb-bd8a-ba83a81e1d9e",
+  "name": "NEURAL LINK",
+  "favour": "\"OK computer, what number am I think--oh, there it is on the screen.\"\"OK computer, what number am I think--oh, there it is on the screen.\"",
+  "effect": "Take a peek at the next 2 ages.",
+  "colour": "Blue",
+  "points": 2,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:35.894Z",
+  "updated_at": "2022-12-14T00:02:35.910Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

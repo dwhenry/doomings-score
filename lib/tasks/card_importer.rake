@@ -68,4 +68,16 @@ namespace :card_importer do
       image.write(new_file_name)
     end
   end
+
+  desc "Dump cards to yaml"
+  task dump: :environment do
+    path = Rails.root.join("db/cards")
+    FileUtils.mkdir_p(path)
+
+    Card.all.each do |card|
+      File.open(path.join("#{card.name}.json"), "w") do |f|
+        f.puts JSON.pretty_generate(card.as_json.merge(types: card.types.map(&:as_json)))
+      end
+    end
+  end
 end

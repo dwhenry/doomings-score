@@ -1,0 +1,36 @@
+{
+  "id": "241297ec-c2b2-412d-9064-7527250d7d56",
+  "name": "SUBDERMAL PLATING",
+  "favour": "“Come with me if you want to live...on a doomed and distant planet.”“Come with me if you want to live...on a doomed and distant planet.”",
+  "effect": "You may play this at any time. Attach to a trait in any trait pile. Host trait cannot be discarded.",
+  "colour": "Purple",
+  "points": -1,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:42.030Z",
+  "updated_at": "2022-12-14T00:02:42.052Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "e1e7cb93-181c-4c29-a0a4-3ee0dd57fa0a",
+      "name": "Attachment",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:34.529Z",
+      "updated_at": "2022-12-14T00:02:34.529Z"
+    },
+    {
+      "id": "f57a517f-1aef-4d31-94d2-33f174d11ada",
+      "name": "Play When",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:06.559Z",
+      "updated_at": "2022-12-14T00:01:06.559Z"
+    }
+  ]
+}

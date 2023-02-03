@@ -1,0 +1,29 @@
+{
+  "id": "93ca1f92-4c60-4396-a61d-681eba68dd84",
+  "name": "CYBERNETIC",
+  "favour": "\"I can perform tasks simultaneously. Like rubbing my belly and patting my head.\"\"I can perform tasks simultaneously. Like rubbing my belly and patting my head.\"",
+  "effect": "Attach to a non-blue trait. Host trait is now blue.",
+  "colour": "Blue",
+  "points": 1,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:34.445Z",
+  "updated_at": "2022-12-14T00:02:34.460Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "e1e7cb93-181c-4c29-a0a4-3ee0dd57fa0a",
+      "name": "Attachment",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:34.529Z",
+      "updated_at": "2022-12-14T00:02:34.529Z"
+    }
+  ]
+}

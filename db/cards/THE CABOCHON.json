@@ -1,0 +1,22 @@
+{
+  "id": "4ab9b732-e6aa-47c3-9187-da0ef89059a9",
+  "name": "THE CABOCHON",
+  "favour": "",
+  "effect": "+3 if you have only 1 or 2 red traits in your trait pile. +6 if you have none.",
+  "colour": "Red",
+  "points": null,
+  "collection": "Meaning of Life",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:15.632Z",
+  "updated_at": "2022-12-14T00:03:15.654Z",
+  "types": [
+    {
+      "id": "4d0aaadd-ea13-4dea-87fc-1c299a6c5a73",
+      "name": "Sign",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:15.251Z",
+      "updated_at": "2022-12-14T00:03:15.251Z"
+    }
+  ]
+}

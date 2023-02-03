@@ -1,0 +1,22 @@
+{
+  "id": "c5dc3ff6-32c1-4165-8974-6c5abbf03bad",
+  "name": "FLOURISH",
+  "favour": "",
+  "effect": "Draw 2 cards.",
+  "colour": "Green",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:52.583Z",
+  "updated_at": "2022-12-14T00:02:52.608Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

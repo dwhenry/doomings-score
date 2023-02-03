@@ -1,0 +1,29 @@
+{
+  "id": "668e08f0-a788-4ed9-a0ad-bca53337b2f4",
+  "name": "FEY",
+  "favour": "Fairy. Demoted angel. Occasionally collects teeth.Fairy. Demoted angel. Occasionally collects teeth.",
+  "effect": "All players receive: +1 Gene Pool. (Including yourself.)",
+  "colour": "Green",
+  "points": 1,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:24.782Z",
+  "updated_at": "2022-12-14T00:02:24.800Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "ba766a53-4d5c-484b-a791-4208d5ebc6f6",
+      "name": "Gene Pool",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:12.422Z",
+      "updated_at": "2022-12-14T00:01:12.422Z"
+    }
+  ]
+}

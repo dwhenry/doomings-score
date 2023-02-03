@@ -1,0 +1,36 @@
+{
+  "id": "1e6fce9e-0406-4aa8-9ec6-9cb782dcfa5c",
+  "name": "ECHOLOCATION",
+  "favour": "The all-seeing ear.The all-seeing ear.",
+  "effect": "Until World's End: Draw 1 card at the start of each of your turns.",
+  "colour": "Blue",
+  "points": 4,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:02.320Z",
+  "updated_at": "2022-12-14T00:01:02.327Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "57ffc5ef-4f93-4dcc-90ad-a0f60140eb59",
+      "name": "Persistent",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.358Z",
+      "updated_at": "2022-12-14T00:01:02.358Z"
+    },
+    {
+      "id": "8685297c-2edc-4fb6-82b9-8d458abe8892",
+      "name": "Dominant",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.369Z",
+      "updated_at": "2022-12-14T00:01:02.369Z"
+    }
+  ]
+}

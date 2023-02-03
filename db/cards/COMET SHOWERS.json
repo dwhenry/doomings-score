@@ -1,0 +1,22 @@
+{
+  "id": "af67246a-1d9a-4de5-8c98-ae0fdb973344",
+  "name": "COMET SHOWERS",
+  "favour": "",
+  "effect": "Discard 1 card from your hand at random.",
+  "colour": "Red",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:00.501Z",
+  "updated_at": "2022-12-14T00:03:00.528Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

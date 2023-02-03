@@ -1,0 +1,29 @@
+{
+  "id": "34aa836c-9241-4714-b023-24671191f269",
+  "name": "TEETH",
+  "favour": "A source of income when you're a child.A source of income when you're a child.",
+  "effect": "+1 Gene Pool",
+  "colour": "Purple",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:55.952Z",
+  "updated_at": "2022-12-14T00:01:55.970Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "ba766a53-4d5c-484b-a791-4208d5ebc6f6",
+      "name": "Gene Pool",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:12.422Z",
+      "updated_at": "2022-12-14T00:01:12.422Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "a9fed24f-8912-41b4-80b4-fc078fb12b64",
+  "name": "JUICY",
+  "favour": "\"Ooh, this is when everything blows up. I love this part.\"\"Ooh, this is when everything blows up. I love this part.\"",
+  "effect": "Swap 2 traits between any 2 trait piles.",
+  "colour": "Purple",
+  "points": 2,
+  "collection": "KSE",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:29.148Z",
+  "updated_at": "2022-12-14T00:03:29.176Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

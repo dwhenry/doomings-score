@@ -1,0 +1,29 @@
+{
+  "id": "7763f107-dcde-4995-9260-0c690b64e23e",
+  "name": "ICY",
+  "favour": "Frosty and hostile. Frostile, if you will.Frosty and hostile. Frostile, if you will.",
+  "effect": "",
+  "colour": "Blue",
+  "points": 3,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:22.964Z",
+  "updated_at": "2022-12-14T00:02:22.992Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

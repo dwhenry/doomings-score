@@ -1,0 +1,29 @@
+{
+  "id": "c42f84c1-397e-485d-8d7c-559c3306bfe0",
+  "name": "LEAVES",
+  "favour": "Flat plant organs.Flat plant organs.",
+  "effect": "",
+  "colour": "Green",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:21.267Z",
+  "updated_at": "2022-12-14T00:01:21.285Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

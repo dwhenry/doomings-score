@@ -1,0 +1,29 @@
+{
+  "id": "90689653-e436-462d-a53a-33913e7485fa",
+  "name": "TERROR BEAK",
+  "favour": "\"Nose goes...into the flesh of my prey!\"\"Nose goes...into the flesh of my prey!\"",
+  "effect": "To play, you must discard 1 green trait.",
+  "colour": "Blue",
+  "points": 3,
+  "collection": "Dinolings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:13.894Z",
+  "updated_at": "2022-12-14T00:02:13.912Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "1da42369-4c13-4c60-811e-1885798d2a8a",
+      "name": "Requirement",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:16.850Z",
+      "updated_at": "2022-12-14T00:01:16.850Z"
+    }
+  ]
+}

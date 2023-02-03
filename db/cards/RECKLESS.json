@@ -1,0 +1,29 @@
+{
+  "id": "9e5cec97-9981-4a74-a19d-559969b9758b",
+  "name": "RECKLESS",
+  "favour": "\"Hot take comin' in hot!\"\"Hot take comin' in hot!\"",
+  "effect": "You and an opponent discard 1 trait from each other's trait pile. (Excluding this one.)",
+  "colour": "Red",
+  "points": 3,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:07.157Z",
+  "updated_at": "2022-12-14T00:02:07.168Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

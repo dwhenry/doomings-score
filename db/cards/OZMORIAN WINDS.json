@@ -1,0 +1,22 @@
+{
+  "id": "f01bde98-f7e4-4aa5-971c-0e05472e8d83",
+  "name": "OZMORIAN WINDS",
+  "favour": "",
+  "effect": "After you stabilize, pass 1 card to your left at random.",
+  "colour": "Red",
+  "points": null,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:13.485Z",
+  "updated_at": "2022-12-14T00:03:13.501Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3db41a7f-cdb8-4320-9b6a-e686be3d68e6",
+  "name": "THE BIG ONE",
+  "favour": "",
+  "effect": "-1 Gene Pool\nGive 1 card from your hand to the opponent(s) on your left and right.\nWorld's End:\n-2 to your score for each color missing from your trait pile.",
+  "colour": "Green",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:02.726Z",
+  "updated_at": "2022-12-14T00:03:02.754Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    },
+    {
+      "id": "d2f9ce5c-82a3-4337-8dba-9c2ac3cfa4e8",
+      "name": "Catastrophe",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:02.773Z",
+      "updated_at": "2022-12-14T00:03:02.773Z"
+    }
+  ]
+}

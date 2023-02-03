@@ -1,0 +1,36 @@
+{
+  "id": "f034aa41-f8d4-4c3c-a6b4-fea17440ed61",
+  "name": "GMO",
+  "favour": "\"I am perfect corn. Bee boop.\"\"I am perfect corn. Bee boop.\"",
+  "effect": "Attach to a trait. +1 for every trait in your trait pile of the same color as the host trait.",
+  "colour": "Colorless",
+  "points": -1,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:39.611Z",
+  "updated_at": "2022-12-14T00:02:39.630Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "e1e7cb93-181c-4c29-a0a4-3ee0dd57fa0a",
+      "name": "Attachment",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:34.529Z",
+      "updated_at": "2022-12-14T00:02:34.529Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

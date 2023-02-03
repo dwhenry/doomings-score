@@ -1,0 +1,29 @@
+{
+  "id": "8e43cae0-19e4-4560-ad6c-f838726b1444",
+  "name": "BONES",
+  "favour": "Better in the body than out.Better in the body than out.",
+  "effect": "Take 2 cards from the discard pile and add them to your hand.",
+  "colour": "Colorless",
+  "points": 2,
+  "collection": "KSE",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:28.261Z",
+  "updated_at": "2022-12-14T00:03:28.287Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

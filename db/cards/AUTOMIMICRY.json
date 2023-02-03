@@ -1,0 +1,29 @@
+{
+  "id": "9b3d455f-9480-46b7-b416-39b9ef245b44",
+  "name": "AUTOMIMICRY",
+  "favour": "\"I made a big, scary face so you don't notice my small, real face.\"\"I made a big, scary face so you don't notice my small, real face.\"",
+  "effect": "Play 1 card from the discard pile. Ignore its action. Then discard 2 cards from your hand.",
+  "colour": "Blue",
+  "points": 0,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:04.362Z",
+  "updated_at": "2022-12-14T00:01:04.383Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

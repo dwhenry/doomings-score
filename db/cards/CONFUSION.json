@@ -1,0 +1,29 @@
+{
+  "id": "5a800d5a-d738-492a-9a2a-ad278cea23ce",
+  "name": "CONFUSION",
+  "favour": "And you might ask yourself, \"Why does this trait exist?\"And you might ask yourself, \"Why does this trait exist?\"",
+  "effect": "",
+  "colour": "Colorless",
+  "points": -2,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:31.965Z",
+  "updated_at": "2022-12-14T00:01:31.974Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

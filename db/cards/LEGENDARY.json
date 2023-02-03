@@ -1,0 +1,29 @@
+{
+  "id": "d734003b-246d-4e4b-b18f-8051d29d4c5d",
+  "name": "LEGENDARY",
+  "favour": "\"Everything you've heard about me is true. Well, maybe just the good stuff.\"\"Everything you've heard about me is true. Well, maybe just the good stuff.\"",
+  "effect": "Discard your hand. Do not stabilize.",
+  "colour": "Blue",
+  "points": 8,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:21.649Z",
+  "updated_at": "2022-12-14T00:02:21.671Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "8685297c-2edc-4fb6-82b9-8d458abe8892",
+      "name": "Dominant",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.369Z",
+      "updated_at": "2022-12-14T00:01:02.369Z"
+    }
+  ]
+}

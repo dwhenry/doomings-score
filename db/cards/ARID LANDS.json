@@ -1,0 +1,22 @@
+{
+  "id": "b80e3c27-753a-49d4-a36d-24b5de106736",
+  "name": "ARID LANDS",
+  "favour": "",
+  "effect": "Players cannot play blue traits.",
+  "colour": "Red",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:00.083Z",
+  "updated_at": "2022-12-14T00:03:00.109Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

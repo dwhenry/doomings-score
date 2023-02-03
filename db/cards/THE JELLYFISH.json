@@ -1,0 +1,22 @@
+{
+  "id": "f04066c9-72ba-4bfd-8e49-9b562d286876",
+  "name": "THE JELLYFISH",
+  "favour": "",
+  "effect": "+3 if you have 3 - 5 blue traits in your trait pile. +6 if you have 6 or more.",
+  "colour": "Purple",
+  "points": null,
+  "collection": "Meaning of Life",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:18.091Z",
+  "updated_at": "2022-12-14T00:03:18.113Z",
+  "types": [
+    {
+      "id": "4d0aaadd-ea13-4dea-87fc-1c299a6c5a73",
+      "name": "Sign",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:15.251Z",
+      "updated_at": "2022-12-14T00:03:15.251Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "b102b46a-29dd-4f20-a096-194f1d1b116e",
+  "name": "TRANSGENIC MODIFICATION",
+  "favour": "Part fighter, part tomato. Packs an awesome punch of Vitamin C!Part fighter, part tomato. Packs an awesome punch of Vitamin C!",
+  "effect": "Attach to a non-green trait. Host trait is now green.",
+  "colour": "Green",
+  "points": 1,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:37.759Z",
+  "updated_at": "2022-12-14T00:02:37.783Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "e1e7cb93-181c-4c29-a0a4-3ee0dd57fa0a",
+      "name": "Attachment",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:34.529Z",
+      "updated_at": "2022-12-14T00:02:34.529Z"
+    }
+  ]
+}

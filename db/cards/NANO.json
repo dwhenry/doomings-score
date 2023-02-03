@@ -1,0 +1,29 @@
+{
+  "id": "15fba2d4-6b3a-4187-804b-0cb925e87bc4",
+  "name": "NANO",
+  "favour": "\"We are members of the itty bitty techie committee.\"\"We are members of the itty bitty techie committee.\"",
+  "effect": "Attach to a trait in any trait pile. Value is equal to the face value of the host trait.",
+  "colour": "Green",
+  "points": 0,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:37.312Z",
+  "updated_at": "2022-12-14T00:02:37.339Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "e1e7cb93-181c-4c29-a0a4-3ee0dd57fa0a",
+      "name": "Attachment",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:34.529Z",
+      "updated_at": "2022-12-14T00:02:34.529Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "14bbc2e3-8c6d-43de-9c43-584a0fa57aed",
+  "name": "ADORABLE",
+  "favour": "\"Hey, you look like a sucker. Rub my belly. Now, get in this lava so I can float to safety.\"\"Hey, you look like a sucker. Rub my belly. Now, get in this lava so I can float to safety.\"",
+  "effect": "",
+  "colour": "Purple",
+  "points": 4,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:44.977Z",
+  "updated_at": "2022-12-14T00:01:44.998Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "77840bda-a5df-4815-b515-122b3d1f1d1b",
+  "name": "DELICIOUS",
+  "favour": "To save a species from extinction, figure out how to eat it.To save a species from extinction, figure out how to eat it.",
+  "effect": "To play, you must have at least 1 colorless trait in your trait pile.",
+  "colour": "Colorless",
+  "points": 4,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:32.332Z",
+  "updated_at": "2022-12-14T00:01:32.353Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "1da42369-4c13-4c60-811e-1885798d2a8a",
+      "name": "Requirement",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:16.850Z",
+      "updated_at": "2022-12-14T00:01:16.850Z"
+    }
+  ]
+}

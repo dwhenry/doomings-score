@@ -1,0 +1,29 @@
+{
+  "id": "e3b07ee6-bba2-4848-af48-6c41e4e0a2e2",
+  "name": "FEAR",
+  "favour": "\"Are they...are they d-done playing yet?\"\"Are they...are they d-done playing yet?\"",
+  "effect": "",
+  "colour": "Colorless",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:34.838Z",
+  "updated_at": "2022-12-14T00:01:34.855Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "e9b1a0cd-f7cf-429e-a519-1a5bb664e38f",
+  "name": "LUNAR RETREAT",
+  "favour": "",
+  "effect": "Players cannot play purple traits.",
+  "colour": "Blue",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:45.957Z",
+  "updated_at": "2022-12-14T00:02:45.984Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "9785544c-3b4c-406f-875d-8d81a5a71a8f",
+  "name": "NOSY",
+  "favour": "\"Whatchya holdin'?\"\"Whatchya holdin'?\"",
+  "effect": "Look at 2 random cards from an opponent's hand. Steal 1, and play it immediately.",
+  "colour": "Purple",
+  "points": 1,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:51.573Z",
+  "updated_at": "2022-12-14T00:01:51.596Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "95510877-4a3f-49df-b056-5f2dad7e15dc",
+      "name": "Action",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.417Z",
+      "updated_at": "2022-12-14T00:01:04.417Z"
+    }
+  ]
+}

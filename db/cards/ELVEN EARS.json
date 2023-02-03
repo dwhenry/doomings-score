@@ -1,0 +1,29 @@
+{
+  "id": "fa4c678b-e348-44f8-8d1e-3b0fa255bdec",
+  "name": "ELVEN EARS",
+  "favour": "\"A sale on arrows, you say? I'm listening.\"\"A sale on arrows, you say? I'm listening.\"",
+  "effect": "+1 for each Mythling in ALL trait piles. (Including this one.)",
+  "colour": "Green",
+  "points": -1,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:23.842Z",
+  "updated_at": "2022-12-14T00:02:23.856Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

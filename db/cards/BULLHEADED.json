@@ -1,0 +1,29 @@
+{
+  "id": "7f6ea4f1-d676-4c68-bbba-8baea86c352a",
+  "name": "BULLHEADED",
+  "favour": "\"I'm two colors and that's the end of it!\"\"I'm two colors and that's the end of it!\"",
+  "effect": "",
+  "colour": "GreenRedMulti-color",
+  "points": 1,
+  "collection": "Multi-Color",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:10.689Z",
+  "updated_at": "2022-12-14T00:02:10.709Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "219cc7c4-017c-412e-9c5a-303dda259ba4",
+      "name": "Effectless",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:04.783Z",
+      "updated_at": "2022-12-14T00:01:04.783Z"
+    }
+  ]
+}

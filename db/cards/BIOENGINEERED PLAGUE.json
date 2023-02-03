@@ -1,0 +1,29 @@
+{
+  "id": "f0c2c29b-c03c-45bc-b713-89a1b05fc33a",
+  "name": "BIOENGINEERED PLAGUE",
+  "favour": "",
+  "effect": "-1 Gene Pool\nEach player chooses a color. The player on your left discards all cards of that color from their hand.\nWorld's End:\nDiscard 1 random trait from your highest color count from your trait pile. (If 2 or more colors are tied for highest, pick 1.)",
+  "colour": "Green",
+  "points": null,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:03:14.783Z",
+  "updated_at": "2022-12-14T00:03:14.801Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    },
+    {
+      "id": "d2f9ce5c-82a3-4337-8dba-9c2ac3cfa4e8",
+      "name": "Catastrophe",
+      "subtype": false,
+      "created_at": "2022-12-14T00:03:02.773Z",
+      "updated_at": "2022-12-14T00:03:02.773Z"
+    }
+  ]
+}

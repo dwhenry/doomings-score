@@ -1,0 +1,29 @@
+{
+  "id": "f08981f1-40d1-4aa7-a7e0-f7c5e4aae830",
+  "name": "LYONIZATION",
+  "favour": "Commonly found in genetically modified alien hunters. Also calico cats.Commonly found in genetically modified alien hunters. Also calico cats.",
+  "effect": "Attach to a trait in any trait pile. Host trait's effect is now inactive.",
+  "colour": "Green",
+  "points": 1,
+  "collection": "Techlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:36.941Z",
+  "updated_at": "2022-12-14T00:02:36.948Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "e1e7cb93-181c-4c29-a0a4-3ee0dd57fa0a",
+      "name": "Attachment",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:34.529Z",
+      "updated_at": "2022-12-14T00:02:34.529Z"
+    }
+  ]
+}

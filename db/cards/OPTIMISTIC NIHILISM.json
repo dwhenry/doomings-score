@@ -1,0 +1,29 @@
+{
+  "id": "16570e92-d079-4ecc-9aab-510bb67f22ee",
+  "name": "OPTIMISTIC NIHILISM",
+  "favour": "\"Nothing matters!\"\"Nothing matters!\"",
+  "effect": "Bring about the next catastrophe. Skip all turns. Ignore all age effects along the way. Do not stabilize.",
+  "colour": "Colorless",
+  "points": 4,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:29.869Z",
+  "updated_at": "2022-12-14T00:01:29.886Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "8685297c-2edc-4fb6-82b9-8d458abe8892",
+      "name": "Dominant",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.369Z",
+      "updated_at": "2022-12-14T00:01:02.369Z"
+    }
+  ]
+}

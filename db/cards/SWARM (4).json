@@ -1,0 +1,29 @@
+{
+  "id": "9d036c34-9b92-4b04-a53c-92bab77647ff",
+  "name": "SWARM (4)",
+  "favour": "\"We're here for the new phone.\"\"We're here for the new phone.\"",
+  "effect": "Value is equal to the number of Swarm traits in all trait piles. (Including this one.)",
+  "colour": "Green",
+  "points": 0,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:01:26.285Z",
+  "updated_at": "2022-12-14T00:01:26.308Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

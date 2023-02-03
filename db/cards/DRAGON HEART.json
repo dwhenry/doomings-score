@@ -1,0 +1,29 @@
+{
+  "id": "e41e928b-7538-4c2e-a6ca-ce55346ea186",
+  "name": "DRAGON HEART",
+  "favour": "\"Everything melts in my mouth.\"\"Everything melts in my mouth.\"",
+  "effect": "+4 if you have all 4 colors in your trait pile.",
+  "colour": "Red",
+  "points": 1,
+  "collection": "Mythlings",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:32.570Z",
+  "updated_at": "2022-12-14T00:02:32.595Z",
+  "types": [
+    {
+      "id": "924797b9-7740-45cf-b495-a054c0c6778a",
+      "name": "Trait",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.340Z",
+      "updated_at": "2022-12-14T00:01:02.340Z"
+    },
+    {
+      "id": "782f0284-ee4f-43b0-93bc-778d6bf05045",
+      "name": "Drop of Life",
+      "subtype": false,
+      "created_at": "2022-12-14T00:01:02.735Z",
+      "updated_at": "2022-12-14T00:01:02.735Z"
+    }
+  ]
+}

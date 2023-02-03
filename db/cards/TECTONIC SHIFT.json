@@ -1,0 +1,22 @@
+{
+  "id": "27422190-2cce-4e0e-b456-09c440380458",
+  "name": "TECTONIC SHIFT",
+  "favour": "",
+  "effect": "Players cannot play green traits.",
+  "colour": "Green",
+  "points": null,
+  "collection": "Classic",
+  "effects": {
+  },
+  "created_at": "2022-12-14T00:02:54.982Z",
+  "updated_at": "2022-12-14T00:02:54.991Z",
+  "types": [
+    {
+      "id": "b1919eba-a6d3-4bfa-b83e-b08a6e63bca9",
+      "name": "Age",
+      "subtype": false,
+      "created_at": "2022-12-14T00:02:44.782Z",
+      "updated_at": "2022-12-14T00:02:44.782Z"
+    }
+  ]
+}
